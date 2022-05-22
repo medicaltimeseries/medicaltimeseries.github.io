@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Research website of Satya Narayan Shukla.">
+  <meta name="description" content="NeurIPS Workshop.">
   <meta name="author" content="Satya Narayan Shukla">
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-  <title>Satya Narayan Shukla</title>
+  <title>Learning from Medical Time Series</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -29,357 +29,54 @@
        <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" style="margin-top:180px">
         <hr>
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#patents">Patents</a></li>
-          <li><a href="#awards">Awards</a></li>
-          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#speakers">Invited Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+          <li><a href="#papers">Accepted Papers</a></li>
         </ul>
       </div>
 
       <div class="col-xs-12 col-sm-9 col-md-9">
 
         <div class="row">
-          <img src="img/headshot2.jpg" class="pull-left" style="margin:20px
-          20px 20px 0; height:150px; width:130px"/>
-          <h1>Satya Narayan Shukla</h1>
-          <p class="lead">
-            Research Scientist at Meta AI<br>
-            satyanshukla@fb.com
-            <br>
-            <!-- <a href="https://twitter.com/ImSNShukla" class="icon">
-              <i class="fa fa-twitter fa-lg"></i>
-            </a>
-            <a href="https://github.com/satyanshukla" class="icon">
-              <i class="fa fa-github fa-lg"></i>
-            </a> -->
-            <a href="https://scholar.google.com/citations?user=l1tsmesAAAAJ&hl=en" class="icon">Google Scholar</a>
-          </p>
+          <h1>Learning from Medical Time Series</h1>
         </div>
 
         <hr>
 
         <div class="row">
           <p>
-          I am a Research Scientist at Meta AI.
-          I’m broadly interested in making deep learning models robust to
-          missing or incomplete data, uncertainty modeling, and adversarial examples. Previously,
-          I completed my Ph.D. in Computer Science at UMass Amherst advised by Benjamin Marlin.
-          During my Ph.D., I spent wonderful summers interning at Microsoft Research, Bosch Center for AI, and Facebook.
-          I earned my Bachelors (Hons.) and Masters in Electrical Engineering from
-          <a href="http://www.iitkgp.ac.in/">Indian Institute of Technology Kharagpur</a>  and
-          was awarded the prestigious Institute Silver Medal.
-          <!-- <br>
-            I'm interested in building deep learning models for advancing state-of-the-art for
-            sequence modeling with applications to natural language processing, speech, and time series.
-          My research interests can be broadly categorized into generative modeling and
-          the robustness of deep learning models. In particular, I am interested in
-          exploring deep learning methods specifically latent-variable models for solving
-          the problem of missing data in time series. Most recently,
-          my research has been focused on quantifying uncertainty derived from sparse
-          and/or missingness in the input data and building robust models to deal with it.
-          This work is motivated by the analysis of physiological time series data in
-          electronic health records, which are sparse, irregularly sampled, and multivariate.
-          Modeling such time series with deep learning can lead to accurate predictive models
-          for diagnosis and other applications in healthcare.
-          I'm also interested in exploring and developing algorithms and methods for
-          making deep learning safe and more robust. -->
+            Time series data are ubiquitous in healthcare and present an exciting opportunity for machine learning methods to extract actionable insights about human health. However, gaps remain to make machine learning systems practical and deployable for healthcare. This is because learning from time series is notoriously challenging: labels are often noisy or missing, data are extremely high dimensional, missing values are pervasive, measurements are irregular, data distributions shift rapidly over time, deployed models require careful maintenance over time. When considered together, learning from time series for health is a uniquely challenging and important area; Significant advancements are required to realize the societal benefits of ML systems for clinical time series. We hope to investigate myriad questions during the workshop.
+            <br>
+            Machine learning for medical time series poses a set of unique challenges, both in building models of complex, high-dimensional data, and in considering the needs for sensitive, embodied data. While time series are at the heart of many healthcare tasks, there have been few events bringing together researchers in this unique field to assess the state of the field, broadcast promising solutions to hard problems, and outline the main challenges we foresee on the horizon. A core goal of this workshop is to facilitate cutting-edge discussions about work in progress on modeling medical time series and the range of challenges that come with solving this crucial challenge. Through networking events, an exciting line-up of heavy-hitting speakers, and poster sessions with lightning talks, this workshop will shine a new spotlight on an interesting and crucial frontier of machine learning research.
+            <br>
+            Further, we seek to facilitate new connections and collaborations between researchers to accelerate advancement in our area. To facilitate discussions, there will be breaks with coffee and posters, lightning spotlights to help attendees find similar interests, and a panel discussing research and deployment challenges of time series models in healthcare. Through talks by diverse and heavy-hitting clinical time series researchers—Yan Liu (professor at USC), Emily Fox (professor at Stanford), Stephanie Hyland (senior researcher at MSR), and Danielle Belgrave (senior research scientist at DeepMind))—attendees will broaden their perspectives and learn about state-of-the-art problems and solutions. Like the highly-successful time series workshops at other conferences like KDD and ICML, we expect that ours will be engaging and well-attended.
+            <br>
         </p>
-          <!-- <p>
-          Recently, I have been giving the following talk:
-          </p>
-          <ul>
-            <li>
-              <div class="btn-group-xs">
-                <strong>What Might Deep Learners Learn From Probabilistic
-                  Programming?</strong>
-                <a href="/talks/Tran_Probabilistic_Programming.pdf"
-                class="btn btn-default">Slides</a>
-                <a href="https://www.youtube.com/watch?v=30FDdK2734I"
-                class="btn btn-default">Video</a>
-              </div>
-            </li>
-          </ul><p>
-          <strong><a href="cv.pdf">Curriculum Vitae</a></strong>
-          </p> -->
-        </div>
-
-        <div class="row">
-          <h2><a name="publications"></a>Publications</h2>
-          <hr>
-          <!-- <h3>Preprints</h3> -->
-          <p>
-          Some of my work is available as preprints on arXiv. [* denotes equal contribution]
-          <!-- <a href="http://arxiv.org/a/tran_d_1.html">preprints on arXiv</a>. -->
-          </p>
-          <!-- <p>
-            <strong>Adversarial Distillation of Bayesian Neural Networks</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Meet Vadera, Brian Jalaian, Benjamin Marlin<br>
-            <div class="btn-group-xs">
-             <a href="s/preprint1"
-             class="btn btn-default">Paper</a>
-           </div>
-          </p> -->
-          <p>
-            <strong>Heteroscedastic Temporal Variational Autoencoder For Irregularly Sampled Time Series</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Benjamin Marlin<br>
-            <em>International Conference on Learning Representations</em>, 2022<br>
-            <div class="btn-group-xs">
-             <a href="https://openreview.net/pdf?id=Az7opqbQE-3"
-             class="btn btn-default">Paper</a>
-             <a href="s/hetvae_poster"
-             class="btn btn-default">Poster</a>
-             <a href="s/hetvae_slides"
-             class="btn btn-default">Slides</a>
-             <a href="https://github.com/reml-lab/hetvae"
-             class="btn btn-default">Code</a>
-           </div>
-          </p>
-          <p>
-            <strong>Deep Learning Models for Irregularly Sampled and Incomplete Time Series</strong><br>
-            <strong>Satya Narayan Shukla</strong><br>
-            <em>Doctoral Dissertations, University of Massachusetts Amherst</em>, 2021<br>
-            <div class="btn-group-xs">
-             <a href="https://doi.org/10.7275/24475265"
-             class="btn btn-default">Thesis</a>
-           </div>
-          </p>
-          <p>
-            <strong>Simple and Efficient Hard Label Black-box Adversarial Attacks in Low Query Budget Regimes</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Anit Kumar Sahu, Devin Willmott, Zico Kolter<br>
-            <em>ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</em>, 2021<br>
-            <div class="btn-group-xs">
-             <a href="https://arxiv.org/abs/2007.07210"
-             class="btn btn-default">Paper</a>
-             <a href="s/bo_kdd_slides"
-             class="btn btn-default">Slides</a>
-             <a href="https://github.com/satyanshukla/bayes_attack"
-             class="btn btn-default">Code</a>
-             <a href="https://dl.acm.org/doi/abs/10.1145/3447548.3467386"
-             class="btn btn-default">Video</a>
-           </div>
-          </p>
-          <p>
-            <strong>Multi-Time Attention Networks for Irregularly Sampled Time Series</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Benjamin Marlin<br>
-            <em>International Conference on Learning Representations</em>, 2021<br>
-            <div class="btn-group-xs">
-             <a href="https://openreview.net/pdf?id=4c0J6lwQ4_"
-             class="btn btn-default">Paper</a>
-             <a href="s/mtan_poster"
-             class="btn btn-default">Poster</a>
-             <a href="s/mtan_slides"
-             class="btn btn-default">Slides</a>
-             <a href="https://github.com/reml-lab/mTAN"
-             class="btn btn-default">Code</a>
-             <a href="https://slideslive.com/38953627/mtan-multitime-attention-networks-for-irregularly-sampled-time-series?ref=search-presentations-multi-time"
-             class="btn btn-default">Video</a>
-           </div>
-          </p>
-          <p>
-            <strong>A Survey on Principles, Models and Methods for Learning from Irregularly Sampled Time Series</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Benjamin Marlin<br>
-            <em>ML Retrospectives, Surveys & Meta-Analyses (ML-RSA) Workshop at NeurIPS</em>, 2020<br>
-            <div class="btn-group-xs">
-             <a href="https://arxiv.org/pdf/2012.00168.pdf"
-             class="btn btn-default">Paper</a>
-             <a href="s/surveyslides"
-             class="btn btn-default">Slides</a>
-             <a href="https://slideslive.com/38942865/on-principles-models-and-methods-for-learning-from-irregularly-sampled-time-series-from-discretization-to-attention-and-invariance"
-             class="btn btn-default">Video</a>
-           </div>
-          </p>
-          <p>
-            <strong>Gaussian MRF Covariance Modeling for Efficient Black-Box Adversarial Attacks</strong><br>
-            Anit Kumar Sahu, <strong>Satya Narayan Shukla</strong>, Zico Kolter<br>
-            <em>CoRR, abs/2010.04205</em>, 2020<br>
-            <div class="btn-group-xs">
-             <a href="https://arxiv.org/abs/2010.04205"
-             class="btn btn-default">Paper</a>
-             <a href="https://github.com/anitksahu/GMRF"
-             class="btn btn-default">Code</a>
-           </div>
-          </p>
-          <!-- <p>
-            <strong>Multi-Time Attention Networks for Irregularly Sampled Time Series</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Benjamin Marlin<br>
-            <em>Learning with Missing Values Workshop at International Conference on Machine Learning</em>, 2020<br>
-            <div class="btn-group-xs">
-             <a href="https://openreview.net/pdf?id=mXbhcalKnYM"
-             class="btn btn-default">Paper</a>
-             <a href="https://github.com/satyanshukla/mTANs"
-             class="btn btn-default">Code</a>
-           </div>
-          </p> -->
-          <p>
-            <strong>Integrating Physiological Time Series and Clinical Notes with Deep Learning for Improved ICU Mortality Prediction</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Benjamin Marlin<br>
-            <em>ACM Conference on Health, Inference, and Learning, Workshop Track</em>, 2020<br>
-            <div class="btn-group-xs">
-             <a href="https://arxiv.org/pdf/2003.11059.pdf"
-             class="btn btn-default">Paper</a>
-             <a href="s/multimodal_slides"
-             class="btn btn-default">Slides</a>
-             <a href="https://slideslive.com/38931956"
-             class="btn btn-default">Video</a>
-           </div>
-          </p>
-          <p>
-            <strong>Assessing the Adversarial Robustness of Monte Carlo and Distillation Methods for Deep Bayesian Neural Network Classification</strong><br>
-            Meet Vadera*, <strong>Satya Narayan Shukla</strong>*, Brian Jalaian, Benjamin Marlin<br>
-            <em>Artificial Intelligence Safety (SafeAI) Workshop at AAAI Conference on Artificial Intelligence</em>, 2020<br>
-            <div class="btn-group-xs">
-             <a href="https://arxiv.org/pdf/2002.02842.pdf"
-             class="btn btn-default">Paper</a>
-             <a href="s/safeaiworkshop2020"
-             class="btn btn-default">Poster</a>
-           </div>
-          </p>
-          <p>
-            <strong>Black-box Adversarial Attacks with Bayesian Optimization</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Anit Kumar Sahu, Devin Willmott, Zico Kolter<br>
-            <em>CoRR, abs/1909.13857</em>, 2019<br>
-            <div class="btn-group-xs">
-             <a href="https://arxiv.org/abs/1909.13857"
-             class="btn btn-default">Paper</a>
-             <a href="https://github.com/satyanshukla/bayes_attack"
-             class="btn btn-default">Code</a>
-           </div>
-          </p>
-          <p>
-            <strong>Interpolation-Prediction Networks for Irregularly Sampled Time Series</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Benjamin Marlin<br>
-            <em>International Conference on Learning Representations</em>, 2019<br>
-            <div class="btn-group-xs">
-             <a href="https://openreview.net/pdf?id=r1efr3C9Ym"
-             class="btn btn-default">Paper</a>
-             <a href="s/iclr2019poster"
-             class="btn btn-default">Poster</a>
-             <a href="https://github.com/mlds-lab/interp-net"
-             class="btn btn-default">Code</a>
-           </div>
-          </p>
-          <p>
-            <strong>Modeling Irregularly Sampled Clinical Time Series</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Benjamin Marlin<br>
-            <em>Machine Learning for Health (ML4H) Workshop at Neural Information Processing Systems</em>, 2018<br>
-            <div class="btn-group-xs">
-             <a href="https://arxiv.org/abs/1812.00531"
-             class="btn btn-default">Paper</a>
-             <a href="s/nipsworkshop2018"
-             class="btn btn-default">Poster</a>
-             <a href="https://github.com/mlds-lab/interp-net"
-             class="btn btn-default">Code</a>
-           </div>
-          </p>
-          <p>
-            <strong>Prediction and Imputation in Irregularly Sampled Clinical Time Series Data using Hierarchical Linear Dynamical Models</strong><br>
-            Abhishek Sengupta, Prathosh AP, <strong>Satya Narayan Shukla</strong>, Vaibhav Rajan, Chandan K Reddy<br>
-            <em>39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</em>, 2017<br>
-            <div class="btn-group-xs">
-             <a href="s/iftD5Omyb5cT16upCGXp"
-             class="btn btn-default">Paper</a>
-           </div>
-          </p>
-          <p>
-            <strong>Estimation of Blood Pressure from Non-invasive Data</strong><br>
-            <strong>Satya Narayan Shukla</strong><br>
-            <em>39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</em>, 2017<br>
-            <div class="btn-group-xs">
-             <a href="s/jM1y0ptoAuqMc2HRzu5c"
-             class="btn btn-default">Paper</a>
-           </div>
-          </p>
-          <p>
-            <strong>Non-invasive Cuffless Blood Pressure Measurement by Vascular Transit Time</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Karan Kakwani, Amit Patra, Bipin Kumar Lahkar, Vivek Kumar Gupta, Alwar Jayakrishna, Puneet Vashisht, Induja Sreekanth<br>
-            <em>IEEE International Conference on VLSI Design</em>, 2015<br>
-            <div class="btn-group-xs">
-             <a href="s/ObyqdcYUAIfhRGuQFpfT"
-             class="btn btn-default">Paper</a>
-           </div>
-          </p>
-
-
-
-          <!-- <p>
-           <strong>TensorFlow Distributions</strong><br>
-           A backend for efficient, composable manipulation of
-           probability distributions.
-           <br>
-           Joshua V. Dillon, Ian Langmore, <strong>Dustin
-           Tran</strong>, Eugene Brevdo, Srinivas Vasudevan, Dave
-           Moore, Brian Patton, Alex Alemi, Matt Hoffman, Rif A.
-           Saurous<br>
-           <div class="btn-group-xs">
-             <a href="https://arxiv.org/abs/1711.10604"
-             class="btn btn-default">Paper</a>
-             <a href="/papers/DillonEtAl2018_poster.pdf"
-             class="btn btn-default">Poster</a>
-             <a href="https://github.com/tensorflow/probability"
-             class="btn btn-default">Code</a>
-           </div>
-          </p> -->
-
         </div>
         <div class="row">
-          <h2><a name="patents"></a>Patents</h2>
+          <h2><a name="speakers"></a>Invited Speakers</h2>
           <hr>
           <p>
-            <strong>Bayesian-optimization-based Query-efficient Black-box Adversarial Attacks</strong><br>
-            <strong>Satya Narayan Shukla</strong>, Anit Kumar Sahu, Devin Willmott, Zico Kolter
-          </p>
-          <p>
-            <strong>Methods and Systems for Modeling Irregularly Sampled Temporal Data using Kalman Filters</strong><br> Abhishek Sengupta, Prathosh AP, <strong>Satya Narayan Shukla</strong>, Vaibhav Rajan, Katerina Sinclair, Stephen Fullerton
-          </p>
-          <p>
-            <strong>Forecasting Patient Vital Measurements for Healthcare Analytics</strong><br>
-            Abhishek Sengupta, Bhupendra Singh Solanki, Prathosh AP, Vaibhav Rajan, Katerina Sinclair, Stephen Fullerton, <strong>Satya Narayan Shukla</strong>
+          Put pictures of speakers here.
           </p>
         </div>
         <div class="row">
-          <h2><a name="awards"></a>Awards</h2>
+          <h2><a name="schedule"></a>Schedule</h2>
           <hr>
-          <ul>
-            <li>
-              Recipient of Travel Award: <strong>ICLR 2019</strong>, <strong>ML for Health Workshop NeurIPS 2018</strong>
-            </li>
-            <li>
-              <div class="btn-group-xs">
-                <strong>Institute Silver Medal</strong> on being adjudged the best student academically in Electrical Engineering, IIT Kharagpur, 2015
-              </div>
-            </li>
-            <li>
-              <strong>Best Project Award</strong> for M.Tech Thesis in Electrical Engineering, IIT Kharagpur, 2015
-            </li>
-            <li>
-              <strong>Samsung Innovation Award</strong> for a novel idea of measuring blood pressure, 2014
-            </li><li>
-              Offered the WISE scholarship by DAAD for a research internship at RWTH Aachen, Germany, 2014
-            </li><li>
-              Awarded the prestigious OP Jindal Engineering and Management Scholarship (given to only 100 students across India) for academic and leadership excellence, 2013
-            </li>
-            <li>
-              Secured an All India Rank 96 in National Science Olympiad, 2009
-            </li>
-
-          </ul>
+          <p>
+          Upload the schedule here.
+          </p>
         </div>
         <div class="row">
-          <h2><a name="teaching"></a>Teaching</h2>
+          <h2><a name="papers"></a>Accepted Papers</h2>
           <hr>
-          <ul>
-            <li>
-              Teaching Assistant, COMPSCI 585: Introduction to Natural Language Processing, UMass Amherst, Fall 2017
-            </li><li>
-              Teaching Assistant, COMPSCI 187: Programming with Data Structures, UMass Amherst, Summer 2017
-            </li><li>
-              Teaching Assistant, COMPSCI 121: Introduction to Problem Solving with Computers, UMass Amherst, Spring 2017
-            </li><li>
-              Teaching Assistant, Embedded Systems Laboratory, IIT Kharagpur, Spring 2015
-            </li><li>
-              Teaching Assistant, Signals and Networks, IIT Kharagpur, Fall 2014
-            </li>
-          </ul>
+          Add the accepted papers here.
+        </div>
+        <div class="row">
+          <h2><a name="organizers"></a>Organizers</h2>
+          <hr>
+          Put the pictures of organizers here.
         </div>
 
       </div>
