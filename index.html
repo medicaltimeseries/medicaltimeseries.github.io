@@ -22,64 +22,240 @@
   <![endif]-->
 </head>
 <body>
+  <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+    <div class="row header p-6 m-5">
+      <div class="p-1 mx-auto text-center text-white col-md-20 col-sm-12">
+        <h1>
+          Learning from Medical Time Series
+        </h1>
+        <h2>
+          Workshop at NeurIPS 2022
+        </h2>
+        <br>
+        <a href="#speakers" class="btn" style="font-size:20px">Invited Speakers</a>
+        <!-- <a href="#schedule" class="btn" style="font-size:20px">Schedule</a> -->
+        <a href="#organizers" class="btn" style="font-size:20px">Organizers</a>
+      </div>
+
+    </div>
+
+  </div>
   <div class="container">
 
     <div class="row" style="padding:20px">
 
-       <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" style="margin-top:180px">
-        <hr>
-        <ul class="nav nav-pills nav-stacked">
+       <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" style="margin-top:10px">
+        <!-- <ul class="nav nav-pills nav-stacked">
           <li><a href="#speakers">Invited Speakers</a></li>
           <li><a href="#schedule">Schedule</a></li>
           <li><a href="#organizers">Organizers</a></li>
           <li><a href="#papers">Accepted Papers</a></li>
-        </ul>
+        </ul> -->
       </div>
 
       <div class="col-xs-12 col-sm-9 col-md-9">
 
-        <div class="row">
+        <!-- <div class="row">
           <h1>Learning from Medical Time Series</h1>
-        </div>
+        </div> -->
 
-        <hr>
+        <!-- <hr> -->
 
-        <div class="row">
+        <div class="row" style="font-size:18px">
           <p>
-            Time series data are ubiquitous in healthcare (from medical time series to wearable data) and present an exciting opportunity for machine learning methods to extract actionable insights about human health 1. However, gaps remain to make machine learning systems practical and deployable for healthcare 3. This is because learning from medical time series is notoriously challenging: labels are often noisy or missing 4, data are extremely high dimensional 5, missing values are pervasive, measurements are irregular 6, data distributions shift rapidly over time 7, explaining the model outcome is challenging 8, and deployed models require careful maintenance over time 2. Most of these challenges are still an open question and an active area of research with significant room for contribution. When considered together, learning from time series for health is a uniquely challenging and important area; Significant advancements are required to realize the societal benefits of ML systems for healthcares. We hope to investigate myriad questions during the workshop.
+            Time series data are ubiquitous in healthcare (from medical time series to wearable data) and present an exciting opportunity for machine learning methods to extract actionable insights about human health.
+            However, gaps remain to make machine learning systems practical and deployable for healthcare. This is because learning from medical time series is notoriously challenging: labels are often noisy or missing,
+            data are extremely high dimensional, missing values are pervasive, measurements are irregular, data distributions shift rapidly over time, explaining the model outcome is challenging,
+            and deployed models require careful maintenance over time. Most of these challenges are still an open question and an active area of research with significant room for contribution.
+            When considered together, learning from time series for health is a uniquely challenging and important area; Significant advancements are required to realize the societal benefits of ML systems for healthcares.
+            We hope to investigate myriad questions during the workshop.
             <br>
-            <br>
-            While time series are at the heart of many healthcare tasks, there have been few events bringing together researchers in this unique field to assess the state of the field, broadcast promising solutions to hard problems, and outline the main challenges we foresee on the horizon. A core goal of this workshop is to facilitate cutting-edge discussions about work in progress on modeling medical time series and the range of challenges that come with solving this crucial problem. Through networking events, an exciting line-up of heavy-hitting speakers, and poster sessions with lightning talks, this workshop will shine a new spotlight on an interesting and crucial frontier of machine learning research for healthcare
-            <br>
-            <br>
-            Further, we seek to facilitate new connections and collaborations between researchers to accelerate advancement in our area. To facilitate discussions, there will be breaks with coffee and posters, lightning spotlights to help attendees find similar interests, and an interactive panel discussing research and deployment challenges of time series models in healthcare. The goal is to discuss challenges from various perspectives by including clinicians, ethicists, industry leaders and ML researchers in the same panel, initiating new research questions. Through talks by diverse clinical time series researchers from both academia and industry, Yan Liu (professor at USC), Emily Fox (professor at Stanford), Stephanie Hyland (senior researcher at MSR), Danielle Belgrave (senior research scientist at DeepMind), and David Sontag (professor at MIT), attendees will broaden their perspectives and learn about state-of-the-art problems and solutions. Like the highly-successful time series workshops at other conferences like KDD and ICML, we expect that ours will be engaging and well-attended.
             <br>
         </p>
         </div>
         <div class="row">
           <h2><a name="speakers"></a>Invited Speakers</h2>
           <hr>
-          <p>
-          Put pictures of speakers here.
-          </p>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://viterbi-web.usc.edu/~liu32/">
+                <img src="img/yan.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Yan Liu</h5>
+                  <p>
+                    USC, Associate Professor
+                  </p>
+                </div>
+              </a>
+            <!-- marzyeh</div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://emilybfox.su.domains/">
+                <img src="img/emily.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Emily Fox</h5>
+                  <p>
+                    Stanford University, Professor
+                  </p>
+                </div>
+              </a>
+            <!-- marzyeh</div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://people.csail.mit.edu/dsontag/">
+                <img src="img/sontag.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>David Sontag</h5>
+                  <p>
+                    MIT, Professor
+                  </p>
+                </div>
+              </a>
+            <!-- marzyeh</div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://www.microsoft.com/en-us/research/people/sthyland/">
+                <img src="img/stephanie.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Stephanie Hyland</h5>
+                  <p>
+                    Microsoft Research, Senior Researcher
+                  </p>
+                </div>
+              </a>
+            <!-- marzyeh</div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://scholar.google.co.uk/citations?user=bGDCgpUAAAAJ&hl=en">
+                <img src="img/danielle.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Danielle Belgrave</h5>
+                  <p>
+                    DeepMind, Senior Staff Research Scientist
+                  </p>
+                </div>
+              </a>
+            <!-- marzyeh</div> -->
+          </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <h2><a name="schedule"></a>Schedule</h2>
           <hr>
           <p>
           Upload the schedule here.
           </p>
-        </div>
-        <div class="row">
+        </div> -->
+        <!-- <div class="row">
           <h2><a name="papers"></a>Accepted Papers</h2>
           <hr>
           Add the accepted papers here.
-        </div>
+        </div> -->
         <div class="row">
           <h2><a name="organizers"></a>Organizers</h2>
           <hr>
-          Put the pictures of organizers here.
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="http://www.cs.toronto.edu/~stonekaboni/">
+                <img src="img/sana.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Sana Tonekaboni</h5>
+                  <p>
+                    University of Toronto, PhD Student
+                  </p>
+                </div>
+              </a>
+            <!-- marzyeh</div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://www.tomhartvigsen.com/">
+                <img src="img/tom.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Thomas Hartvigsen</h5>
+                  <p>
+                    MIT, Postdoc
+                  </p>
+                </div>
+              </a>
+            <!-- </div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://satyanshukla.github.io/">
+                <img src="img/satya3.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Satya Narayan Shukla</h5>
+                  <p>
+                    Meta AI, Research Scientist
+                  </p>
+                </div>
+              </a>
+            <!-- </div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://bmi.inf.ethz.ch/people/person/gunnar-raetsch">
+                <img src="img/gunnar.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Gunnar Rätsch</h5>
+                  <p>
+                    ETH Zurich, Professor
+                  </p>
+                </div>
+              </a>
+            <!-- </div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://healthyml.org/marzyeh/">
+                <img src="img/marzyeh.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Marzyeh Ghassemi</h5>
+                  <p>
+                    MIT, Assistant Professor
+                  </p>
+                </div>
+              </a>
+            <!-- </div> -->
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <!-- <div class="thumbnail"> -->
+              <a href="https://goldenberglab.ca/">
+                <img src="img/anna.png" style="width:88%" align="center">
+                <div class="caption">
+                  <h5>Anna Goldenberg</h5>
+                  <p>
+                    University of Toronto, Associate Professor
+                  </p>
+                </div>
+              </a>
+            <!-- </div> -->
+          </div>
         </div>
+        <!-- <div class="row">
+          <h2><a name="references"></a>References</h2>
+          <hr>
+          [1] Catley, C., Stratti, H. & McGregor, C. Multi-dimensional temporal abstraction and data mining of medical time series data: trends and challenges. Conf. Proc. IEEE Eng. Med. Biol. Soc. 2008, 4322–4325 (2008).
+          <br>
+          [2]	Wiens, J. et al. Do no harm: a roadmap for responsible machine learning for health care. Nature Medicine vol. 25 1337–1340 (2019).
+          <br>
+          [3]	Ghassemi, M. et al. A Review of Challenges and Opportunities in Machine Learning for Health. AMIA Summits Transl. Sci. Proc. 2020, 191 (2020).
+          <br>
+          [4]	Lipton, Z. C., Kale, D. & Wetzel, R. Directly Modeling Missing Data in Sequences with RNNs: Improved Classification of Clinical Time Series. in Machine Learning for Healthcare Conference 253–270 (PMLR, 2016).
+          <br>
+          [5]	Krishnan, R., Liang, D. & Hoffman, M. On the challenges of learning with inference networks on sparse, high-dimensional data. in International Conference on Artificial Intelligence and Statistics 143–151 (PMLR, 2018).
+          <br>
+          [6]	Alizadehsani, R. et al. Handling of uncertainty in medical data using machine learning and probability theory techniques: a review of 30 years (1991-2020). Ann. Oper. Res. 1–42 (2021).
+          <br>
+          [7]	Subbaswamy, A. & Saria, S. From development to deployment: dataset shift, causality, and shift-stable models in health AI. Biostatistics 21, 345–352 (2019).
+          <br>
+          [8]	Tonekaboni, S., Joshi, S., McCradden, M. D. & Goldenberg, A. What Clinicians Want: Contextualizing Explainable Machine Learning for Clinical End Use. in Machine Learning for Healthcare Conference 359–380 (PMLR, 2019).
+
+        </div> -->
 
       </div>
 
