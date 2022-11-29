@@ -22,24 +22,46 @@
   <![endif]-->
 </head>
 <body>
-  <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+  <style>
+      .back {
+        background:
+          linear-gradient(
+            rgba(30, 100, 160, 0.90),
+            rgba(0, 0, 0, 0.01)
+          ),
+          url("img/nola.jpeg") no-repeat center;
+        background-size: cover;
+      }
+      .back h2 {
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 3rem;
+      }
+
+      .helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+  }
+  </style>
+  <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 100px;">
     <div class="row header p-6 m-5">
       <div class="p-1 mx-auto text-center text-white col-md-20 col-sm-12">
-        <h1>
+        <h1 style="color:white;">
           Learning from Time Series for Health
         </h1>
-        <h2>
+        <h2 style="color:white;">
           Workshop at NeurIPS 2022
         </h2>
-        <h3>
+        <h3 style="color:white;">
           Contact: ts4h.chairs@gmail.com
         </h3>
         <br>
         <!-- <a href="#speakers" class="btn" style="font-size:20px; display:inline-block">Invited Speakers</a> -->
-        <a href="index" class="btn" style="font-size:20px">Home</a>
-        <a href="call_for_papers" class="btn" style="font-size:20px">Call for Papers</a>
-        <a href="accepted_papers" class="btn" style="font-size:20px">Accepted Papers</a>
-        <a href="schedule" class="btn" style="font-size:20px">Schedule</a>
+        <a href="index" class="btn" style="font-size:30px; color:white">Home</a>
+        <a href="call_for_papers" class="btn" style="font-size:30px; color:white">Call for Papers</a>
+        <a href="accepted_papers" class="btn" style="font-size:30px; color:white">Accepted Papers</a>
+        <a href="schedule" class="btn" style="font-size:30px; color:white">Schedule</a>
         <!-- <a href="#organizers" class="btn" style="font-size:20px">Organizers</a> -->
       </div>
 
@@ -311,26 +333,16 @@
             <!-- </div> -->
           </div>
         </div>
-        <!-- <div class="row">
-          <h2><a name="references"></a>References</h2>
+        <div class="row">
+          <h2><a name="sponsors"></a>Sponsors</h2>
           <hr>
-          [1] Catley, C., Stratti, H. & McGregor, C. Multi-dimensional temporal abstraction and data mining of medical time series data: trends and challenges. Conf. Proc. IEEE Eng. Med. Biol. Soc. 2008, 4322–4325 (2008).
-          <br>
-          [2]	Wiens, J. et al. Do no harm: a roadmap for responsible machine learning for health care. Nature Medicine vol. 25 1337–1340 (2019).
-          <br>
-          [3]	Ghassemi, M. et al. A Review of Challenges and Opportunities in Machine Learning for Health. AMIA Summits Transl. Sci. Proc. 2020, 191 (2020).
-          <br>
-          [4]	Lipton, Z. C., Kale, D. & Wetzel, R. Directly Modeling Missing Data in Sequences with RNNs: Improved Classification of Clinical Time Series. in Machine Learning for Healthcare Conference 253–270 (PMLR, 2016).
-          <br>
-          [5]	Krishnan, R., Liang, D. & Hoffman, M. On the challenges of learning with inference networks on sparse, high-dimensional data. in International Conference on Artificial Intelligence and Statistics 143–151 (PMLR, 2018).
-          <br>
-          [6]	Alizadehsani, R. et al. Handling of uncertainty in medical data using machine learning and probability theory techniques: a review of 30 years (1991-2020). Ann. Oper. Res. 1–42 (2021).
-          <br>
-          [7]	Subbaswamy, A. & Saria, S. From development to deployment: dataset shift, causality, and shift-stable models in health AI. Biostatistics 21, 345–352 (2019).
-          <br>
-          [8]	Tonekaboni, S., Joshi, S., McCradden, M. D. & Goldenberg, A. What Clinicians Want: Contextualizing Explainable Machine Learning for Clinical End Use. in Machine Learning for Healthcare Conference 359–380 (PMLR, 2019).
-
-        </div> -->
+          <div class="col-xs-6 col-md-4">
+                <img src="img/image2.jpg" style="width:88%" align="center">
+          </div>
+          <div class="col-xs-6 col-md-4">
+                <img src="img/image3.jpg" style="width:88%" align="center">
+          </div>
+        </div>
 
       </div>
 
