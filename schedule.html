@@ -22,25 +22,52 @@
   <![endif]-->
 </head>
 <body>
-  <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
-    <div class="row header p-6 m-5">
-      <div class="p-1 mx-auto text-center text-white col-md-20 col-sm-12">
-        <h1>
-          Learning from Time Series for Health
-        </h1>
-        <h2>
-          Workshop at NeurIPS 2022
-        </h2>
-        <br>
-        <a href="index" class="btn" style="font-size:20px">Home</a>
-        <a href="call_for_papers" class="btn" style="font-size:20px">Call for Papers</a>
-        <a href="accepted_papers" class="btn" style="font-size:20px">Accepted Papers</a>
-        <a href="schedule" class="btn" style="font-size:20px">Schedule</a>
-      </div>
+  <style>
+    .back {
+      background:
+        linear-gradient(
+          rgba(30, 100, 160, 0.90),
+          rgba(0, 0, 0, 0.01)
+        ),
+        url("img/nola.jpeg") no-repeat center;
+      background-size: cover;
+    }
+    .back h2 {
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 3rem;
+    }
 
+    .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+</style>
+<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 100px;">
+  <div class="row header p-6 m-5">
+    <div class="p-1 mx-auto text-center text-white col-md-20 col-sm-12">
+      <h1 style="color:white;">
+        Learning from Time Series for Health
+      </h1>
+      <h2 style="color:white;">
+        Workshop at NeurIPS 2022
+      </h2>
+      <h3 style="color:white;">
+        Contact: ts4h.chairs@gmail.com
+      </h3>
+      <br>
+      <!-- <a href="#speakers" class="btn" style="font-size:20px; display:inline-block">Invited Speakers</a> -->
+      <a href="index" class="btn" style="font-size:30px; color:white">Home</a>
+      <a href="call_for_papers" class="btn" style="font-size:30px; color:white">Call for Papers</a>
+      <a href="accepted_papers" class="btn" style="font-size:30px; color:white">Accepted Papers</a>
+      <a href="schedule" class="btn" style="font-size:30px; color:white">Schedule</a>
+      <!-- <a href="#organizers" class="btn" style="font-size:20px">Organizers</a> -->
     </div>
 
   </div>
+
+</div>
   <div class="container">
 
     <div class="row" style="padding:20px">
